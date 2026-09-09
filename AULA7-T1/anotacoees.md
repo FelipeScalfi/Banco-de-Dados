@@ -1,4 +1,10 @@
-## Para nomear uma tabela como se fosse um apelido:
+## Para contagem de linhas
+```SQL
+SELECT COUNT(*)
+FROM produtos;
+```
+
+## Para nomear uma tabela como se fosse um apelido (AS):
 ```SQL
 SELECT COUNT(*) AS total_de_produtos FROM produtos;
 ```
